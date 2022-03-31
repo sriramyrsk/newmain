@@ -1,0 +1,153 @@
+.flex-wrapper__head-data,
+.flx-wrpr__data-star,
+.flx-wrpr__data-vlog,
+.flx-wrpr__data-channel,
+.flx-wrpr__star-t{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#head-data,
+#data-star,
+#data-vlog,
+#data-channel{
+    background-color: #5F4B8BFF;
+    width: 50%;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#head-data h1,
+#data-star h1,
+#data-vlog h1,
+#data-channel h1{
+    color: whitesmoke;
+}
+.f-container__head-data,
+.f-cont__data-star,
+.f-cont__data-vlog,
+.f-cont__data-channel{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.f-container__head-data a,
+.f-cont__data-star a,
+.f-cont__data-vlog a,
+.f-cont__data-channel a{
+    text-decoration: none;
+    color: #E69A8DFF;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.f-container__head-data a:hover,
+.f-container__head-data a:active,
+.f-cont__data-star a:hover,
+.f-cont__data-star a:active,
+.f-cont__data-vlog a:active,
+.f-cont__data-vlog a:hover,
+.f-cont__data-channel a:active,
+.f-cont__data-channel a:hover{
+    color: white;
+}
+
+#data-star,
+#data-vlog,
+#data-channel{
+    background-color: #00539CFF;
+}
+.f-cont__data-star a,
+.f-cont__data-vlog a,
+.f-cont__data-channel a{
+    color: #EEA47FFF;
+}
+.flx-wrpr__star-t{
+    height: fit-content(auto);
+}
+#star-t{
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(auto-fit , minmax(17rem,1fr))  ;
+    justify-items: center;
+    grid-gap: 0.3rem;
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+}
+.star-t__content{
+    display: flex;
+    flex-direction: column;
+    height: 34rem;
+    width: 17rem;
+    align-items: center;
+    justify-content: space-between;
+}
+.star-t__content a{
+    display: flex;
+}
+.image-cont__star-t,
+.image-cont__star-t2,
+.image-cont__star-t3,
+.image-cont__star-t4,
+.image-cont__star-t5,
+.image-cont__star-t6{
+    width: 17rem;
+    height: 34rem;
+    background: url("../images/blackedraw-alina-lopez_310x530.webp");
+    background-position: right 50%  top 10%;
+    background-repeat: no-repeat;
+}
+.image-cont__star-t a,
+.image-cont__star-t2 a,
+.image-cont__star-t3 a,
+.image-cont__star-t4 a,
+.image-cont__star-t5 a,
+.image-cont__star-t6 a{
+    width: 100%;
+    height: 100%;
+}
+.star-t__font--cont,
+.star-t__font--cont2,
+.star-t__font--cont3,
+.star-t__font--cont4,
+.star-t__font--cont5,
+.star-t__font--cont6{
+    display: flex;
+    justify-content: center;
+    background-color: #211f1f;
+    width: 100%;
+}
+.star-t__font--cont a,
+.star-t__font--cont2 a,
+.star-t__font--cont3 a,
+.star-t__font--cont4 a,
+.star-t__font--cont5 a,
+.star-t__font--cont6 a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}
+.image-cont__star-t2{
+    background: url("../images/blackedraw-avery-cristy_310x530.webp");
+    background-position: right 90%  top 10%;
+}
+.image-cont__star-t3{
+    background: url("../images/View Model_1.webp");
+    background-position: right 70%  top 10%;
+}
+.image-cont__star-t4{
+    background: url("../images/View Model.webp");
+
+}
+.image-cont__star-t5{
+    background: url("https://sm.naughtycdn.com/images/premium/tngf/tour/warning.jpg");
+    background-position: right 60% top 30%;
+}
+.image-cont__star-t6{
+    background: url("../images/Gianna Dior.webp");
+    background-position:right 60% top 50%  ;
+}

@@ -1,0 +1,58 @@
+#t-ali{
+    background: black;
+}
+.ali--22{
+    color: white;
+    height: 100vh;
+}
+.ali-contents{
+    background: #211f1f;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:1.5rem;
+    grid-auto-rows: fit-content(auto);
+}
+.ali-content1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ali-info1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ali-thumb1{
+    background: url("../images/Alina Loves to be Bad.webp");
+    width: 100%;
+    height:20rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ali-title1{
+    margin: 0.5rem 0;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.ali-reso1{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.ali-reso1 button{
+    padding: 0.5rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.ali-reso1 button:hover,
+.ali-reso1 button:active{
+    background: #89ABE3FF;
+    color: white;
+}
+.ali-thumb2{
+    background-image: url("../images/Placeholder.jpg");
+    background-position: center;
+    /* background-size: cover; */
+}

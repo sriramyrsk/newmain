@@ -1,0 +1,87 @@
+#head-section{
+    width: 98%;
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 20rem 20rem 20rem;
+    grid-template-rows: fit-content(2.5rem) fit-content(3rem);
+    grid-template-areas: "image-1 image-2 image-3 "
+                         "slogan-1 slogan-2 slogan-3";
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 1rem 5rem;
+    height: 25rem;
+}
+.head-section__image-1__container{
+    justify-self: center;
+}
+.head-section__image-1{
+    width:100%;
+    grid-area: image-1;
+}
+.head-section__slogan-1{
+    grid-area: slogan-3;
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: #ff4242;
+    text-align: center;
+    margin: 0;
+}
+.head-section__image-2{
+    /* grid-area: image-2; */
+}
+.head-section__slogan-2{
+    grid-area: slogan-1;
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: #ff4242;
+    justify-self: center;
+    margin: 0;
+
+}
+.head-section__image-3{
+    grid-area: image-3;
+    width:100%;
+}
+.head-section__slogan-3{
+    grid-area: slogan-2;
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: #ff4242;
+    /* text-align: start; */
+    margin: 0;
+
+}
+.get-started__container{
+    height: 13rem;
+    display: flex;
+    justify-content: center;
+}
+#get-started{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background: linear-gradient(to bottom left,#ff4242,#f86d6d);
+    width: 40%;
+}
+.get-started__slogan{
+    color: white;
+    margin: 0px;
+}
+.get-started__button{
+    padding: 0.7rem;
+}
+
+.get-started__button:focus{
+    outline: none;
+}
+.get-started__a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: black;
+}
+.get-started__button:hover,
+.get-started__button:active{
+    background-color: rgb(0, 255, 136);
+}
