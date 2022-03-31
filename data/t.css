@@ -1,3 +1,6 @@
+.main-footer{
+    display: none;
+}
 #t-ali{
     background: black;
 }
@@ -9,8 +12,10 @@
     background: #211f1f;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap:1.5rem;
+    grid-column-gap:1.5rem;
+    grid-row-gap:3rem;
     grid-auto-rows: fit-content(auto);
+    padding: 1rem;
 }
 .ali-content1{
     display: flex;
@@ -28,7 +33,7 @@
     width: 100%;
     height:20rem;
     background-repeat: no-repeat;
-    background-size: cover;
+    /* background-size: cover; */
 }
 .ali-title1{
     margin: 0.5rem 0;
@@ -55,9 +60,35 @@
 .ali-thumb2{
     background-image: url("../images/Placeholder.jpg");
     background-position: center;
-    /* background-size: cover; */
+    background-size: cover;
 }
 .ali-thumb3{
     background-image: url("../images/cont-3.webp");
-    background-position: center;
+    background-size: cover;
 }
+.ali-thumb4{
+    background-image: url("/home/sriram/Desktop/css/project/images/content4.jpg");
+    background-size: cover;
+}
+.ali-thumb5{
+    background-image: url("../images/cont5.jpg");
+}
+.ali-thumb6{
+    background-image: url("../images/cont6.jpeg");
+    background-size: cover;
+}
+.ali-thumb7{
+    background-image: url("../images/cont7.jpg");
+    background-size: cover;
+}
+.ali-thumb8{
+    background-image: url("../images/cont8.jpg");
+}
+.ali-thumb9{
+    background-image: url("../images/cont9.jpg");
+}
+.ali-thumb10{
+    background-image: url("../images/cont10.webp");
+    background-size: cover;
+}
+
