@@ -6,7 +6,7 @@
 }
 .ali--22{
     color: white;
-    height: 100vh;
+    height: fit-content(auto);
 }
 .ali-contents{
     background: #211f1f;
@@ -29,7 +29,7 @@
     align-items: center;
 }
 .ali-thumb1{
-    background: url("../images/Alina Loves to be Bad.webp");
+    background: url("../images/Alina Loves to be Bad.webp") white;
     width: 100%;
     height:20rem;
     background-repeat: no-repeat;
@@ -91,4 +91,116 @@
     background-image: url("../images/cont10.webp");
     background-size: cover;
 }
-
+.ali--23{
+    color: white;
+    height: fit-content(auto);
+}
+.a23-sampledp{
+    display: grid;
+    grid-template-rows:  700px;
+    background-repeat: no-repeat;
+    align-self: center;
+    background-image: url("../images/blraw2-1.jpg");
+    background-position: center bottom 70%;
+    border: 4px solid red;
+}
+.ali23-thumb{
+    background-image: url("../images/ppse-1.jpg");
+    background-size: cover;
+}
+.ali23-thumb3{
+    background-image: url("../images/JJ-m1.jpg");
+    background-size: contain;
+    background-position: center;
+}
+.ali23-thumb2{
+    background-image: url("../images/rk-1.jpg");
+}
+.ali23-thumb4{
+    background-image: url("../images/newsen.jpg");
+}
+.ali23-thumb5{
+    background-image: url("../images/br-2.jpg");
+    background-size: cover;
+}
+.ali23-thumb6{
+    background-image: url("../images/bbstng.jpg");
+    background-position: right 70%;
+    /* background-size: contain; */
+}
+.ali23-thumb7{
+    background-image: url("../images/dpr-1.webp");
+}
+.ali23-thumb8{
+    background-image: url("../images/RK-2.jpg");
+    background-size: contain;
+    background-position: center;
+}
+.ali23-thumb9{
+    background-image: url("../images/bngbr-2.jpg");
+    background-size: contain;
+    background-position: center;
+}
+.ali23-thumb10{
+    background-image: url("../images/blckd2.jpg");
+}
+.ali23-thumb11{
+    background-image: url("../images/blked3try.jpg");
+    background-size: cover;
+    
+}
+.ali23-thumb12{
+    background-image: url("../images/bclu1.jpg");
+    background-size: contain;
+    background-position: center;
+}
+.ali23-thumb13{
+    background-image: url("../images/hrdx-2.jpg");
+}
+.ali23-thumb14{
+    background-size: contain;
+    background-image: url("../images/blraw2-2.jpg");
+    background-position: center;
+}
+.ali23-thumb15{
+    background-image: url("../images/rk3.jpg");
+    background-size: contain;
+    background-position: center;
+}
+.ali23-thumb16{
+    background-image: url("../images/bbs3.jpg");
+    background-size: contain;
+    background-position: center;
+}
+.ali23-thumb17{
+    background-image: url("../images/tngf2.jpg");
+    background-position: left 30% top 35%;
+}
+.ali23-thumb18{
+    background-image: url("../images/wywi1.jpg");
+    background-position: center;
+}
+.ali23-thumb19{
+    background-image: url("../images/brz2.jpg");
+    background-position: center;
+}
+.ali23-thumb20{
+    background-image: url("../images/hrdx-3.jpg");
+    background-size: cover;
+    background-position: right;
+}
+.ali23-thumb21{
+    background-image: url("../images/jj2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.ali23-thumb22{
+    background-image: url("../images/pps2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.ali23-thumb23{
+    background-image: url("../images/hwn01.jpg");
+    background-size: cover;
+    background-position: center;
+}
