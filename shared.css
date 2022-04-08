@@ -106,7 +106,6 @@ main{
 {
     
     body{
-        height: fit-content(100vh);
         display: grid;
         grid-template-rows: 94px auto fit-content(3.3rem);
         grid-template-areas: "header"
