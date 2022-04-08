@@ -94,6 +94,7 @@
         justify-content: space-evenly;
     }
     #head-section{
+        grid-auto-rows: fit-content(auto);
         grid-template-columns: 1fr;
         grid-template-rows: repeat(6,fit-content(3rem));
         grid-template-areas: "image-1 "
@@ -102,14 +103,14 @@
                              "slogan-2"
                              "image-3 "
                              "slogan-3";
-        height: 30rem;
+        height: auto;
         /* padding-top: 20rem; */
                              
 
     }
     .get-started__container{
         height: fit-content(5rem);
-        padding-top: 8rem;
+        /* padding-top: 8rem; */
     }
     #get-started{
         width:90%;
