@@ -75,6 +75,7 @@ body{
 }
 main{
     grid-area: main;
+    height: fit-content(auto);
 }
 
 .main-footer{
@@ -100,4 +101,29 @@ main{
 .main-footer__link a:hover,
 .main-footer__link a:active{
     color: #ccc;
+}
+@media(max-width:28rem)
+{
+    
+    body{
+        height: fit-content(100vh);
+        display: grid;
+        grid-template-rows: 94px auto fit-content(3.3rem);
+        grid-template-areas: "header"
+                             "main"
+                             "footer";
+    }
+
+    .main-header{
+        flex-direction: column;
+    }
+    .main-header__brand--container{
+        justify-content: center;
+       
+
+    }
+    .main-nav__items{
+        justify-content: center;
+        padding: 1rem auto;
+    }
 }
