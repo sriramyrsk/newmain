@@ -1,12 +1,9 @@
-body{
-    height: 100vh;
-}
 .page-holder{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    margin-top: 0.5rem;
 }
 .field-1{
     display: flex;
@@ -45,4 +42,12 @@ body{
     text-decoration: none;
     color: black;
     width: 100%;
+}
+@media(max-width:28rem)
+{
+    
+    .field-1{
+        width: 100%;
+    }
+
 }

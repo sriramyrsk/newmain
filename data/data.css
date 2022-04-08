@@ -151,3 +151,27 @@
     background: url("../images/Gianna Dior.webp");
     background-position:right 60% top 50%  ;
 }
+@media(max-width:28rem){
+    .flex-wrapper__head-data,
+    .flx-wrpr__data-star,
+    .flx-wrpr__data-vlog,
+    .flx-wrpr__data-channel,
+    .flx-wrpr__star-t{
+        height: auto;
+        width: 100vw;
+        margin:1.5rem auto;
+    }
+    #head-data,
+    #data-star,
+    #data-vlog,
+    #data-channel{
+        width: 95%;
+    }
+    #star-t{
+        grid-auto-flow: row;
+        height: auto;
+        grid-template-columns: 1fr;
+        grid-gap: 1rem 0;
+    }
+
+}
