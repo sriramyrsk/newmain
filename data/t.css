@@ -364,3 +364,12 @@
     background-image: url("../images/ali24-intro6.jpg");
     grid-area: img6;
 }
+@media(max-width:28rem){
+    .ali-thumb1,
+    .ali23-thumb,
+    .ali24-thumb{
+        background-position: center;
+        background-size: contain;
+    }
+  
+}
