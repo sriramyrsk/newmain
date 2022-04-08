@@ -373,6 +373,7 @@
     }
     .ali--24 > a{
         display: block;
+        height: fit-content(auto);
     }
   
 }
