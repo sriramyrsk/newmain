@@ -12,7 +12,7 @@
     grid-column-gap:1.5rem;
     grid-row-gap:3rem;
     grid-auto-rows: fit-content(auto);
-    padding: 1rem;
+    padding: 1rem;;
 }
 .brpb-content1{
     display: flex;
@@ -51,4 +51,23 @@
 .brpb-reso1 button:active{
     background: #89ABE3FF;
     color: white;
+}
+.brpb-thumb2{
+    background-image: url("../images/br-av-2.jpg");
+    background-position: top 65% left 35%;
+    /* background-size: cover; */
+}
+.brpb-thumb3{
+    background-image: url("../images/br-js-3.webp");
+    background-size: cover;
+}
+.brpb-thumb4{
+    background-image: url("../images/br-mm-4.webp");
+    background-size: contain;
+    background-position: center;
+}
+.brpb-thumb5{
+    background-image: url("../images/br-gd-5.webp");
+    background-size: contain;
+    background-position: center;
 }
