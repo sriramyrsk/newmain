@@ -1,0 +1,37 @@
+#Milf-Images{
+    background: black;
+}
+.Milf__Cont{
+    background: black;
+    width: 100%;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: repeat(auto-fit,auto);
+}
+.Milf1__img{
+    background-image: url("../images/abmacrk.webp");
+    width: 400px;
+    background-position: center;
+    height: 800px;
+}
+.Milf2__img{
+    background-image: url("../images/nicrk.webp");
+    width: 400px;
+    background-position: center;
+    height: 800px;
+}
+.Milf3__img{
+    background-image: url("../images/lasarRK.webp");
+    width: 550px;
+    height: 800px;
+}
+.Milf4__img{
+    background-image: url("../images/cdebr.webp");
+    width: 550px;
+    height: 800px;
+}
+.Milf5__img{
+    background-image: url("../images/chanel.webp");
+    width: 300px;
+    height: 500px;
+}
