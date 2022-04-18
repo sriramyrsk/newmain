@@ -68,7 +68,8 @@
 .flx-wrpr__star-t{
     height: fit-content(auto);
 }
-#star-t{
+#star-t,
+#star-m{
     display: grid;
     grid-auto-flow: column;
     grid-template-columns: repeat(auto-fit , minmax(17rem,1fr))  ;
@@ -78,7 +79,8 @@
     width: 100%;
     height: 100vh;
 }
-.star-t__content{
+.star-t__content,
+.star-m__content{
     display: flex;
     flex-direction: column;
     height: 34rem;
@@ -86,7 +88,8 @@
     align-items: center;
     justify-content: space-between;
 }
-.star-t__content a{
+.star-t__content a,
+.star-m__content a{
     display: flex;
 }
 .image-cont__star-t,
@@ -94,7 +97,13 @@
 .image-cont__star-t3,
 .image-cont__star-t4,
 .image-cont__star-t5,
-.image-cont__star-t6{
+.image-cont__star-t6,
+.image-cont__star-m,
+.image-cont__star-m2,
+.image-cont__star-m3,
+.image-cont__star-m4,
+.image-cont__star-m5,
+.image-cont__star-m6{
     width: 17rem;
     height: 34rem;
     background: url("../images/blackedraw-alina-lopez_310x530.webp");
@@ -106,7 +115,13 @@
 .image-cont__star-t3 a,
 .image-cont__star-t4 a,
 .image-cont__star-t5 a,
-.image-cont__star-t6 a{
+.image-cont__star-t6 a,
+.image-cont__star-m a,
+.image-cont__star-m2 a,
+.image-cont__star-m3 a,
+.image-cont__star-m4 a,
+.image-cont__star-m5 a,
+.image-cont__star-m6 a{
     width: 100%;
     height: 100%;
 }
@@ -115,7 +130,13 @@
 .star-t__font--cont3,
 .star-t__font--cont4,
 .star-t__font--cont5,
-.star-t__font--cont6{
+.star-t__font--cont6,
+.star-m__font--cont,
+.star-m__font--cont2,
+.star-m__font--cont3,
+.star-m__font--cont4,
+.star-m__font--cont5,
+.star-m__font--cont6{
     display: flex;
     justify-content: center;
     background-color: #211f1f;
@@ -126,7 +147,13 @@
 .star-t__font--cont3 a,
 .star-t__font--cont4 a,
 .star-t__font--cont5 a,
-.star-t__font--cont6 a{
+.star-t__font--cont6 a,
+.star-m__font--cont a,
+.star-m__font--cont2 a,
+.star-m__font--cont3 a,
+.star-m__font--cont4 a,
+.star-m__font--cont5 a,
+.star-m__font--cont6 a{
     text-decoration: none;
     color: white;
     font-size: 1rem;
@@ -150,6 +177,39 @@
 .image-cont__star-t6{
     background: url("../images/Gianna Dior.webp");
     background-position:right 60% top 50%  ;
+}
+.image-cont__star-m{
+    width: 17rem;
+    height: 34rem;
+    background: url("../images/Nicole\ Aniston.jpg");
+    background-position: bottom 50% left 65%;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.image-cont__star-m2{
+    background-image: url("../images/chanel.webp");
+    background-size: cover;
+    background-position: top 60% left 65%;
+}
+.image-cont__star-m3{
+    background-image: url("../images/kayla.jpg");
+    background-position: top 50% left 40%; 
+}
+.image-cont__star-m4{
+    background-image: url("../images/brandia.webp");
+    background-position: top 15% right 45%;
+    background-size: cover; 
+}
+.image-cont__star-m5{
+    background-image: url("../images/reagan_foxx.jpg");
+    /* background-position: top 15% right 45%; */
+    /* background-size: contain;  */
+}
+.image-cont__star-m6{
+    background-image: url("../images/corychase.jpg");
+    /* background-position: top 50% left 50%; */
+    /* background-size: contain;  */
 }
 @media(max-width:28rem){
     .flex-wrapper__head-data,
