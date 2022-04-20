@@ -1,15 +1,18 @@
 .main-footer{
     display: none;
 }
-#t-ali{
+#t-ali,
+#t-avr{
     background: black;
 }
 .ali--22,
-.ali--24{
+.ali--24,
+.avr--19{
     color: white;
     height: fit-content(auto);
 }
-.ali-contents{
+.ali-contents,
+.avr-contents{
     background: #211f1f;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -19,7 +22,8 @@
     padding: 1rem;
 }
 @media(max-width:25rem){
-    .ali-contents{
+    .ali-contents,
+    .avr-contents{
         background: #211f1f;
         display: grid;
         grid-auto-flow: row;
@@ -31,18 +35,21 @@
         padding: 1rem;
     }
 }
-.ali-content1{
+.ali-content1,
+.avr-content1{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.ali-info1{
+.ali-info1,
+.avr-info1{
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.ali-thumb1{
+.ali-thumb1,
+.avr-thumb1{
     background: url("../images/Alina Loves to be Bad.webp") #333131;
     width: 100%;
     height:20rem;
@@ -50,25 +57,34 @@
     overflow: hidden;
     /* background-size: cover; */
 }
-.ali-title1{
+.avr-thumb1{
+    background-image: url("../images/aver-tush1.jpg");
+    background-position: top 50% left 30%;
+}
+.ali-title1,
+.avr-title1{
     margin: 0.5rem 0;
     font-size: 1rem;
     font-weight: bold;
     
 }
-.ali-reso1{
+.ali-reso1,
+.avr-reso1{
     width: 100%;
     display: flex;
     justify-content: space-evenly;
 }
-.ali-reso1 button{
+.ali-reso1 button,
+.avr-reso1 button{
     padding: 0.5rem;
     border: none;
     border-radius: 8px;
     cursor: pointer;
 }
 .ali-reso1 button:hover,
-.ali-reso1 button:active{
+.ali-reso1 button:active,
+.avr-reso1 button:hover,
+.avr-reso1 button:active{
     background: #89ABE3FF;
     color: white;
 }
@@ -364,6 +380,34 @@
 .a24-sampledp6{
     background-image: url("../images/ali24-intro6.jpg");
     grid-area: img6;
+}
+.avr-thumb2{
+    background-image: url("../images/castcouchX-avr.jpg");
+    background-size: cover;
+}
+.avr-thumb3{
+    background-image: url("../images/pornpros-avr.jpg");
+    background-size: cover;
+}
+.avr-thumb4{
+    background-image: url("../images/AVR-na1.jpg");
+    background-size: cover;
+}
+.avr-thumb5{
+    background-image: url("../images/av1-blckraw.jpg");
+    background-size: cover;
+}
+.avr-thumb6{
+    background-image: url("../images/avr-grilcum.jpg");
+    background-size: cover;
+}
+.avr-thumb7{
+    background-image: url("../images/avr-nublie-1.jpg");
+    background-size: cover;
+}
+.avr-thumb8{
+    background-image: url("../images/avery-cumeatingcukck.jpg");
+    background-size: cover;
 }
 @media(max-width:28rem){
     .ali-thumb1,
