@@ -9,6 +9,9 @@
     justify-content: center;
     align-items: center;
 }
+.flx-wrpr__star-t{
+    height: auto;
+}
 #head-data,
 #data-star,
 #data-vlog,
@@ -65,19 +68,22 @@
 .f-cont__data-channel a{
     color: #EEA47FFF;
 }
-.flx-wrpr__star-t{
-    height: fit-content(auto);
-}
 #star-t,
 #star-m{
     display: grid;
-    grid-auto-flow: column;
+    grid-auto-flow: row;
+    grid-template-rows: repeat(2,523px);
     grid-template-columns: repeat(auto-fit , minmax(17rem,1fr))  ;
+    /* grid-template-areas: "img1 img2 img3 img4 img5 img6"
+                         "img7 img8 img9 img10 img11 img12"; */
     justify-items: center;
     grid-gap: 0.3rem;
     background-color: black;
     width: 100%;
-    height: 100vh;
+    height: 69rem;
+}
+#star-m{
+    margin-top: 2rem;
 }
 .star-t__content,
 .star-m__content{
@@ -86,7 +92,6 @@
     height: 34rem;
     width: 17rem;
     align-items: center;
-    justify-content: space-between;
 }
 .star-t__content a,
 .star-m__content a{
@@ -105,10 +110,11 @@
 .image-cont__star-m5,
 .image-cont__star-m6{
     width: 17rem;
-    height: 34rem;
-    background: url("../images/blackedraw-alina-lopez_310x530.webp");
+    height: 31rem;
+    background: url("../images/blackedraw-alina-lopez_310x530.webp"),#ccc;
     background-position: right 50%  top 10%;
     background-repeat: no-repeat;
+    grid-area: img1;
 }
 .image-cont__star-t a,
 .image-cont__star-t2 a,
@@ -159,33 +165,76 @@
     font-size: 1rem;
 }
 .image-cont__star-t2{
-    background: url("../images/blackedraw-avery-cristy_310x530.webp");
+    background-image: url("../images/blackedraw-avery-cristy_310x530.webp");
     background-position: right 90%  top 10%;
+    grid-area: img2;
 }
 .image-cont__star-t3{
-    background: url("../images/View Model_1.webp");
+    background-image: url("../images/View Model_1.webp");
     background-position: right 70%  top 10%;
+    grid-area: img3;
 }
 .image-cont__star-t4{
-    background: url("../images/View Model.webp");
+    background-image: url("../images/View Model.webp");
+    grid-area: img4;
 
 }
 .image-cont__star-t5{
-    background: url("https://sm.naughtycdn.com/images/premium/tngf/tour/warning.jpg");
+    background-image: url("https://sm.naughtycdn.com/images/premium/tngf/tour/warning.jpg");
     background-position: right 60% top 30%;
+    grid-area: img5;
+}
+.star-t__content:hover{
+    transform: scale(1.1);
+    box-shadow: 0.5 0.5 0.5 0.5 rgb(0, 0, 0);
+    z-index: 2;
 }
 .image-cont__star-t6{
-    background: url("../images/Gianna Dior.webp");
+    background-image: url("../images/gianna.webp");
     background-position:right 60% top 50%  ;
+    background-size:cover ;
+    grid-area: img6;
+}
+.image-cont__star-t7{
+    background-image: url("../images/lana.jpg");
+    background-position:center  ;
+    background-size: cover;
+    grid-area: img7;
+    perspective: 1;
+}
+.image-cont__star-t8{
+    background-image: url("../images/gabbie.webp");
+    background-position:center  ;
+}
+.image-cont__star-t9{
+    background-image: url("../images/emil.jpeg");
+    background-position:center  ;
+}
+.image-cont__star-t10{
+    background-image: url("../images/evelyn.webp");
+    background-position:center  ;
+}
+.image-cont__star-t11{
+    background-image: url("../images/abella.webp");
+    background-position:center  ;
+    background-size: cover;
+}
+.image-cont__star-t12{
+    background-image: url("../images/alex-coal.webp");
+    background-position:center  ;
+    background-size: cover;
 }
 .image-cont__star-m{
     width: 17rem;
-    height: 34rem;
-    background: url("../images/Aniston.jpg");
+    /* height: 34rem; */
+    background: url("../images/Aniston.jpg"),#ccc;
     background-position: bottom 50% left 65%;
     background-size: cover;
     background-repeat: no-repeat;
 
+}
+.star-m__content:hover{
+    transform: scale(1.1);
 }
 .image-cont__star-m2{
     background-image: url("../images/chanel.webp");
@@ -216,7 +265,8 @@
     .flx-wrpr__data-star,
     .flx-wrpr__data-vlog,
     .flx-wrpr__data-channel,
-    .flx-wrpr__star-t{
+    .flx-wrpr__star-t
+    .flx-wrpr__star-m{
         height: auto;
         width: 100vw;
         margin:1.5rem auto;
@@ -227,11 +277,14 @@
     #data-channel{
         width: 95%;
     }
-    #star-t{
+    #star-t,
+    #star-m{
         grid-auto-flow: row;
         height: auto;
         grid-template-columns: 1fr;
         grid-gap: 1rem 0;
+        grid-template-rows: repeat(2,523px);
+        grid-template-columns: repeat(1, minmax(17rem,1fr)) ;
     }
 
 }
