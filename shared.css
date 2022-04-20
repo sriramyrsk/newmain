@@ -111,6 +111,18 @@ main{
     transform: rotateZ(45deg) translateX(21rem) translateY(-21rem);
     z-index: -1;
 }
+.p-view{
+    transform: translate(30vw,5vh);
+    padding: 1rem;
+    background-color: #11caf9;
+    font-weight: bold;
+}
+.p-view:hover,
+.p-view:active{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
 @media(max-width:28rem)
 {
     
