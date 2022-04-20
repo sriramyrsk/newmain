@@ -19,6 +19,7 @@ body{
 }
 .main-header{
     grid-area: header;
+    z-index: 100;
     position: fixed;
     top: 0;
     left: 0;
@@ -101,6 +102,14 @@ main{
 .main-footer__link a:hover,
 .main-footer__link a:active{
     color: #ccc;
+}
+.vpn-badge{
+    background-color: rgb(248, 53, 53);
+    font-weight: bold;
+    width: 12rem;
+    text-align: center;
+    transform: rotateZ(45deg) translateX(21rem) translateY(-21rem);
+    z-index: -1;
 }
 @media(max-width:28rem)
 {
