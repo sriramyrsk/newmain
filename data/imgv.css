@@ -1,0 +1,71 @@
+#pus-Images{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit,25rem);
+    grid-template-rows: repeat(3,580px);
+    grid-gap: 0.3rem;
+    height: 250rem;
+}
+#pus-Images p{
+    margin: 0;
+}
+.pus__Cont{
+    /* background-image: url(""),#ccc; */
+    
+}
+.puss__img{
+    height: 34rem;
+    background: url("../images/ali_pus.jpg"),black;
+    background-position: center;
+}
+.puss__fontcont{
+    background-color: black;
+    margin: 0;
+    color: white;
+    font-weight: bold;
+}
+.puss__img2{
+    background: url("../images/avery-pus.jpg"),black;
+    background-position: top 92% left 60%;
+}
+.puss__img3{
+    background: url("../images/kenna-pus.jpg"),black;
+    background-position: top 92% left 60%;
+}
+.puss__img4{
+    background: url("../images/jess-pus.jpg"),black;
+    background-position: top 92% left 60%;
+}
+.puss__img5{
+    background: url("../images/mia-pus.jpg"),black;
+    background-position: top 92% left 60%;
+}
+.puss__img6{
+    background: url("../images/gianna-pus.jpg"),black;
+    background-position: top 60% left 50%;
+}
+.puss__img7{
+    background: url("../images/lana-pus.jpg"),black;
+    background-position: top 90% left 50%;
+}
+.puss__img8{
+    background: url("../images/emily-pus.jpg"),black;
+    background-position: top 90% left 50%;
+    background-size: 200%;
+}
+.puss__img9{
+    background: url("../images/gabbie-pu.jpg"),black;
+    background-position: top 100% left 50%;
+}
+.puss__img10{
+    background: url("../images/evelyn-pus.jpg"),black;
+    background-position: top 80% left 45%;
+}
+.puss__img11{
+    background: url("../images/abella-pus.jpg"),black;
+    background-position: top 80% left 55%;
+}
+.puss__img12{
+    background: url("../images/alex-pus.jpg"),black;
+    background-position: top 80% left 45%;
+}

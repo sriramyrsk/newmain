@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=block');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=block');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
+body{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 54px auto fit-content(3.3rem);
+    grid-template-areas: "header"
+                         "main"
+                         "footer";
+}
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    font:1rem "Roboto slab",serif ;
+}
+.main-header{
+    grid-area: header;
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #00ffea;
+    /* background: linear-gradient(1 red blue); */
+}
+.main-header__brand--container{
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+    /* flex-grow: 550; */
+    justify-self: center;
+}
+.main-header__brand{
+    text-decoration: none;
+    margin: 0px 0rem;
+    font:2rem "bebas neue","monospace",sans-serif ;
+}
+.main-header__brand:active,
+.main-header__brand:hover{
+    text-shadow: 1px 1px 1px rgb(166, 204, 207);
+    color: rgba(85, 26,139);
+}
+.main-nav{
+    /* flex-grow: 450; */
+    width: 50%;
+}
+.main-nav__items{
+    display:flex;
+    justify-content: flex-end;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+.main-nav__item{
+    margin: 0 0.5rem;
+    margin-bottom:0.3rem ;
+}
+.main-nav__item a{
+    font-size: 1.5rem;
+    color: rgba(85, 26,139);  
+    text-decoration: none;
+  
+}
+.main-nav__item a:hover,
+.main-nav__item a:active{
+    color: rgb(241, 105, 223);
+    border-bottom: 4px solid rgb(241, 105, 223);
+}
+main{
+    grid-area: main;
+    /* height: fit-content(auto); */
+}
+
+.main-footer{
+    grid-area: footer;
+    margin-top: 3.5rem;
+    background: black;
+    padding: 1rem;
+}
+.main-footer__links{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+.main-footer__link{
+    margin: 0 1rem;
+}
+.main-footer__link a{
+    text-decoration: none;
+    color: white;
+}
+.main-footer__link a:hover,
+.main-footer__link a:active{
+    color: #ccc;
+}
+.vpn-badge{
+    background-color: rgb(248, 53, 53);
+    font-weight: bold;
+    width: 12rem;
+    text-align: center;
+    transform: rotateZ(45deg) translateX(21rem) translateY(-21rem);
+    z-index: -1;
+}
+.p-view{
+    transform: translate(30vw,5vh);
+    padding: 1rem;
+    background-color: #11caf9;
+    font-weight: bold;
+}
+.p-view:hover,
+.p-view:active{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+@media(max-width:28rem)
+{
+    
+    body{
+        grid-row-gap:1rem;
+        display: grid;
+        grid-template-rows: 94px auto fit-content(3.3rem);
+        grid-template-areas: "header"
+                             "main"
+                             "footer";
+    }
+
+    .main-header{
+        flex-direction: column;
+    }
+    .main-header__brand--container{
+        justify-content: center;
+       
+
+    }
+    .main-nav__items{
+        justify-content: center;
+        padding: 1rem auto;
+    }
+    .main-footer{
+        margin-top: 0rem;
+    }
+}
