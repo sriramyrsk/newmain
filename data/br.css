@@ -7,6 +7,7 @@
 }
 .br1pb__contents{
     background: #211f1f;
+    color: white;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap:1.5rem;
@@ -14,60 +15,184 @@
     grid-auto-rows: fit-content(auto);
     padding: 1rem;;
 }
-.brpb-content1{
+.ali-content1,
+.avr-content1{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.brpb-info1{
+.ali-info1,
+.avr-info1{
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.brpb-thumb1{
+.ali-thumb1,
+.avr-thumb1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: url("../images/Alina Loves to be Bad.webp") #333131;
     width: 100%;
     height:20rem;
     background-repeat: no-repeat;
+    background-size: cover;
+    
 }
-.brpb-title1{
+.ali-title1,
+.avr-title1{
     margin: 0.5rem 0;
     font-size: 1rem;
     font-weight: bold;
 }
-.brpb-reso1{
+.ali-reso1,
+.avr-reso1{
     width: 100%;
     display: flex;
     justify-content: space-evenly;
 }
-.brpb-reso1 button{
+.ali-reso1 button,
+.avr-reso1 button{
     padding: 0.5rem;
     border: none;
     border-radius: 8px;
     cursor: pointer;
 }
-.brpb-reso1 button:hover,
-.brpb-reso1 button:active{
+.ali-reso1 button:hover,
+.ali-reso1 button:active,
+.avr-reso1 button:hover,
+.avr-reso1 button:active{
     background: #89ABE3FF;
     color: white;
 }
-.brpb-thumb2{
-    background-image: url("../images/br-av-2.jpg");
-    background-position: top 65% left 35%;
-    /* background-size: cover; */
-}
-.brpb-thumb3{
-    background-image: url("../images/br-js-3.webp");
+.ali-thumb2{
+    background-image: url("../images/alivxnm2.webp");
     background-size: cover;
 }
-.brpb-thumb4{
-    background-image: url("../images/br-mm-4.webp");
-    background-size: contain;
+.ali-thumb3{
+    background-image: url("../images/alivxnm3.jpeg");
+    background-size: cover;
+}
+.ali-thumb4{
+    background-image: url("../images/alivxnm3.webp");
+    background-size: cover;
+    /* background-position: center; */
+}
+.ali-thumb5{
+    background-image: url("../images/alivxnm5.jpg");
+
+}
+.ali-thumb6{
+    background-image: url("../images/alivxnm6.webp");
+
+}
+.ali-thumb7{
+    background-image: url("../images/alivxnm6.jpg");
+
+}
+.ali-thumb8{
+    background-image: url("../images/alivxnm8.jpg");
+    background-size: cover;
+    background-position: bottom;
+
+}
+.ali-thumb9{
+    background-image: url("../images/alivxnm9.jpg");
+    background-size: cover;
+
+}
+.ali-thumb10{
+    background-image: url("../images/alivxnm10.webp");
+    background-size: cover;
+
+}
+.ali-thumb11{
+    background-image: url("../images/alivxnm11.jpg");
+    background-size: cover;
+
+}
+.ali-thumb12{
+    background-image: url("../images/alivxnm12.jpg");
+    background-size: cover;
+
+}
+.ali-thumb13{
+    background-image: url("../images/alivxnm13.jpg");
+    background-size: cover;
+
+}
+
+.ali-thumb1 a,
+.avr-thumb1 a{
+    width: 100%;
+    height: 100%;
+}
+.avr-thumb1{
+    background-image: url("../images/avrvxnm1.jpg");
     background-position: center;
 }
-.brpb-thumb5{
-    background-image: url("../images/br-gd-5.webp");
-    background-size: contain;
+.avr-thumb2{
+    background-image: url("../images/avrvxnm2.jpg");
+    background-position: bottom;
+}
+.avr-thumb3{
+    background-image: url("../images/avrvxnm3.jpg");
+}
+.avr-thumb4{
+    background-image: url("../images/avrvxnm4.webp");
+}
+.avr-thumb5{
+    background-image: url("../images/avrvxn5.jpg");
+    background-position: bottom;
+}
+.avr-thumb6{
+    background-image: url("../images/avrvxnm6.jpg");
     background-position: center;
+}
+.avr-thumb7{
+    background-image: url("../images/avrvxnm7.jpg");
+    background-position: center;
+}
+.avr-thumb8{
+    background-image: url("../images/alivxnm11.jpg");
+   
+}
+.avr-thumb9{
+    background-image: url("../images/avrvxnm9.jpg");
+}
+.avr-thumb10{
+    background-image: url("../images/avrvxnm10.jpg");
+}
+.avr-thumb11{
+    background-image: url("../images/avrvxnm11.jpg");
+    background-position: bottom;
+}
+.avr-thumb12{
+    background-image: url("../images/avrvxnm12.jpg");
+    
+}
+.avr-thumb13{
+    background-image: url("../images/avrvxnm13.jpg");
+}
+.avr-thumb14{
+    background-image: url("../images/avrvxnm14.jpg");
+}
+.avr-thumb15{
+    background-image: url("../images/avrvxn15.jpg");
+}
+.avr-thumb16{
+    background-image: url("../images/avrvxnm16.jpg");
+}
+.avr-thumb17{
+    background-image: url("../images/avrvxnm17.jpg");
+}
+.avr-thumb18{
+    background-image: url("../images/avrvxnm18.jpg");
+}
+.avr-thumb19{
+    background-image: url("../images/avrvxnm19.jpg");
+}
+.avr-thumb20{
+    background-image: url("../images/avrvxnm20.jpg");
 }
