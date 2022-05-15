@@ -1,23 +1,23 @@
-.jsrd-thumb1{
-    background-image: url("../images/favv-kenna1.jpg");
+.miam-thumb1{
+    background-image: url("../images/favv-jsrd1.jpg");
+    background-position: bottom;
+}
+.miam-thumb2{
+    background-image: url("../images/favv-jsrd2.jpg");
     background-position: center;
 }
-.jsrd-thumb2{
-    background-image: url("../images/favv-kenna2.jpg");
+.miam-thumb3{
+    background-image: url("../images/favv-jsrd3.jpg");
     background-position: center;
 }
-.jsrd-thumb3{
-    background-image: url("../images/favv-kenna3.jpg");
+.miam-thumb4{
+    background-image: url("../images/favv-jsrd4.jpg");
+}
+.miam-thumb5{
+    background-image: url("../images/favv-jsrd5.jpg");
     background-position: center;
 }
-.jsrd-thumb4{
-    background-image: url("../images/favv-kenna4.2.jpg");
-}
-.jsrd-thumb5{
-    background-image: url("../images/favv-kenna5.jpg");
-    background-position: center;
-}
-.jsrd-thumb6{
-    background-image: url("../images/favv-kenna6.jpg");
+.miam-thumb6{
+    background-image: url("../images/favv-jsrd6.jpg");
     background-position: center;
 }
