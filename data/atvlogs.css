@@ -1,0 +1,160 @@
+#br-1{
+    background-color: black;
+    color: white;
+}
+.br1pb{
+    height: fit-content(auto);
+}
+.br1pb__contents{
+    background: #211f1f;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap:1.5rem;
+    grid-row-gap:3rem;
+    grid-auto-rows: fit-content(auto);
+    padding: 1rem;;
+}
+.ali-content1,
+.avr-content1,
+.fav-com__content1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ali-info1,
+.avr-info1,
+.fav-com__info{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ali-thumb1,
+.avr-thumb1,
+.fav-com__thumb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("../images/Alina Loves to be Bad.webp") #333131;
+    width: 100%;
+    height:20rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.fav-com__thumb a{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-self: center;
+    text-decoration: inherit;
+}
+.ali-title1,
+.avr-title1,
+.fav-com__title1{
+    margin: 0.5rem 0;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.ali-reso1,
+.avr-reso1,
+.fav-com__reso{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.ali-reso1 button,
+.avr-reso1 button,
+.fav-com__reso button{
+    padding: 0.5rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.ali-reso1 button:hover,
+.ali-reso1 button:active,
+.avr-reso1 button:hover,
+.avr-reso1 button:active,
+.fav-com__reso button:hover,
+.fav-com__reso button:active{
+    background: #89ABE3FF;
+    color: white;
+}
+.ali-thumb2{
+    background-image: url("../images/fav-ali1.jpg");
+}
+.ali-thumb3{
+    background-image: url("../images/favv-ali3.webp");
+}
+.ali-thumb4{
+    background-image: url("../images/favv-ali4.jpg");
+    background-position: bottom;
+}
+.avr-thumb1{
+    background-image: url("../images/fav-avr1.jpg");
+    background-position: bottom;
+}
+.avr-thumb2{
+    background-image: url("../images/favv-avr2.jpg");
+    background-position: bottom;
+}
+.avr-thumb3{
+    background-image: url("../images/favv-avr3.jpg");
+    background-position: center;
+}
+.avr-thumb4{
+    background-image: url("../images/favv-avr4.jpg");
+    background-position: bottom;
+}
+.avr-thumb5{
+    background-image: url("../images/favv-avr5.jpg");
+    background-position: bottom;
+}
+
+.kenna-thumb1{
+    background-image: url("../images/favv-kenna1.jpg");
+    background-position: center;
+}
+.kenna-thumb2{
+    background-image: url("../images/favv-kenna2.jpg");
+    background-position: center;
+}
+.kenna-thumb3{
+    background-image: url("../images/favv-kenna3.jpg");
+    background-position: center;
+}
+.kenna-thumb4{
+    background-image: url("../images/favv-kenna4.2.jpg");
+}
+.kenna-thumb5{
+    background-image: url("../images/favv-kenna5.jpg");
+    background-position: center;
+}
+.kenna-thumb6{
+    background-image: url("../images/favv-kenna6.jpg");
+    background-position: center;
+}
+.jsrd-thumb1{
+    background-image: url("../images/favv-jsrd1.jpg");
+    background-position: bottom;
+}
+.jsrd-thumb2{
+    background-image: url("../images/favv-jsrd2.jpg");
+    background-position: center;
+}
+.jsrd-thumb3{
+    background-image: url("../images/favv-jsrd3.jpg");
+    background-position: center;
+}
+.jsrd-thumb4{
+    background-image: url("../images/favv-jsrd4.jpg");
+}
+.jsrd-thumb5{
+    background-image: url("../images/favv-kenna5.jpg");
+    background-position: center;
+}
+.jsrd-thumb6{
+    background-image: url("../images/favv-kenna6.jpg");
+    background-position: center;
+}

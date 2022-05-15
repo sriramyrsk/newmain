@@ -1,0 +1,290 @@
+.flex-wrapper__head-data,
+.flx-wrpr__data-star,
+.flx-wrpr__data-vlog,
+.flx-wrpr__data-channel,
+.flx-wrpr__star-t{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.flx-wrpr__star-t{
+    height: auto;
+}
+#head-data,
+#data-star,
+#data-vlog,
+#data-channel{
+    background-color: #5F4B8BFF;
+    width: 50%;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#head-data h1,
+#data-star h1,
+#data-vlog h1,
+#data-channel h1{
+    color: whitesmoke;
+}
+.f-container__head-data,
+.f-cont__data-star,
+.f-cont__data-vlog,
+.f-cont__data-channel{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.f-container__head-data a,
+.f-cont__data-star a,
+.f-cont__data-vlog a,
+.f-cont__data-channel a{
+    text-decoration: none;
+    color: #E69A8DFF;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.f-container__head-data a:hover,
+.f-container__head-data a:active,
+.f-cont__data-star a:hover,
+.f-cont__data-star a:active,
+.f-cont__data-vlog a:active,
+.f-cont__data-vlog a:hover,
+.f-cont__data-channel a:active,
+.f-cont__data-channel a:hover{
+    color: white;
+}
+
+#data-star,
+#data-vlog,
+#data-channel{
+    background-color: #00539CFF;
+}
+.f-cont__data-star a,
+.f-cont__data-vlog a,
+.f-cont__data-channel a{
+    color: #EEA47FFF;
+}
+#star-t,
+#star-m{
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-rows: repeat(2,523px);
+    grid-template-columns: repeat(auto-fit , minmax(17rem,1fr))  ;
+    /* grid-template-areas: "img1 img2 img3 img4 img5 img6"
+                         "img7 img8 img9 img10 img11 img12"; */
+    justify-items: center;
+    grid-gap: 0.3rem;
+    background-color: black;
+    width: 100%;
+    height: 69rem;
+}
+#star-m{
+    margin-top: 2rem;
+}
+.star-t__content,
+.star-m__content{
+    display: flex;
+    flex-direction: column;
+    height: 34rem;
+    width: 17rem;
+    align-items: center;
+}
+.star-t__content a,
+.star-m__content a{
+    display: flex;
+}
+.image-cont__star-t,
+.image-cont__star-t2,
+.image-cont__star-t3,
+.image-cont__star-t4,
+.image-cont__star-t5,
+.image-cont__star-t6,
+.image-cont__star-m,
+.image-cont__star-m2,
+.image-cont__star-m3,
+.image-cont__star-m4,
+.image-cont__star-m5,
+.image-cont__star-m6{
+    width: 17rem;
+    height: 31rem;
+    background: url("../images/blackedraw-alina-lopez_310x530.webp"),#ccc;
+    background-position: right 50%  top 10%;
+    background-repeat: no-repeat;
+    grid-area: img1;
+}
+.image-cont__star-t a,
+.image-cont__star-t2 a,
+.image-cont__star-t3 a,
+.image-cont__star-t4 a,
+.image-cont__star-t5 a,
+.image-cont__star-t6 a,
+.image-cont__star-m a,
+.image-cont__star-m2 a,
+.image-cont__star-m3 a,
+.image-cont__star-m4 a,
+.image-cont__star-m5 a,
+.image-cont__star-m6 a{
+    width: 100%;
+    height: 100%;
+}
+.star-t__font--cont,
+.star-t__font--cont2,
+.star-t__font--cont3,
+.star-t__font--cont4,
+.star-t__font--cont5,
+.star-t__font--cont6,
+.star-m__font--cont,
+.star-m__font--cont2,
+.star-m__font--cont3,
+.star-m__font--cont4,
+.star-m__font--cont5,
+.star-m__font--cont6{
+    display: flex;
+    justify-content: center;
+    background-color: #211f1f;
+    width: 100%;
+}
+.star-t__font--cont a,
+.star-t__font--cont2 a,
+.star-t__font--cont3 a,
+.star-t__font--cont4 a,
+.star-t__font--cont5 a,
+.star-t__font--cont6 a,
+.star-m__font--cont a,
+.star-m__font--cont2 a,
+.star-m__font--cont3 a,
+.star-m__font--cont4 a,
+.star-m__font--cont5 a,
+.star-m__font--cont6 a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}
+.image-cont__star-t2{
+    background-image: url("../images/blackedraw-avery-cristy_310x530.webp");
+    background-position: right 90%  top 10%;
+    grid-area: img2;
+}
+.image-cont__star-t3{
+    background-image: url("../images/View Model_1.webp");
+    background-position: right 70%  top 10%;
+    grid-area: img3;
+}
+.image-cont__star-t4{
+    background-image: url("../images/View Model.webp");
+    grid-area: img4;
+
+}
+.image-cont__star-t5{
+    background-image: url("https://sm.naughtycdn.com/images/premium/tngf/tour/warning.jpg");
+    background-position: right 60% top 30%;
+    grid-area: img5;
+}
+.star-t__content:hover{
+    transform: scale(1.1);
+    box-shadow: 0.5 0.5 0.5 0.5 rgb(0, 0, 0);
+    z-index: 2;
+}
+.image-cont__star-t6{
+    background-image: url("../images/gianna.webp");
+    background-position:right 60% top 50%  ;
+    background-size:cover ;
+    grid-area: img6;
+}
+.image-cont__star-t7{
+    background-image: url("../images/lana.jpg");
+    background-position:center  ;
+    background-size: cover;
+    grid-area: img7;
+    perspective: 1;
+}
+.image-cont__star-t8{
+    background-image: url("../images/gabbie.webp");
+    background-position:center  ;
+}
+.image-cont__star-t9{
+    background-image: url("../images/emil.jpeg");
+    background-position:center  ;
+}
+.image-cont__star-t10{
+    background-image: url("../images/evelyn.webp");
+    background-position:center  ;
+}
+.image-cont__star-t11{
+    background-image: url("../images/abella.webp");
+    background-position:center  ;
+    background-size: cover;
+}
+.image-cont__star-t12{
+    background-image: url("../images/alex-coal.webp");
+    background-position:center  ;
+    background-size: cover;
+}
+.image-cont__star-m{
+    width: 17rem;
+    /* height: 34rem; */
+    background: url("../images/Aniston.jpg"),#ccc;
+    background-position: bottom 50% left 65%;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.star-m__content:hover{
+    transform: scale(1.1);
+}
+.image-cont__star-m2{
+    background-image: url("../images/chanel.webp");
+    background-size: cover;
+    background-position: top 60% left 65%;
+}
+.image-cont__star-m3{
+    background-image: url("../images/kayla.jpg");
+    background-position: top 50% left 40%; 
+}
+.image-cont__star-m4{
+    background-image: url("../images/brandia.webp");
+    background-position: top 15% right 45%;
+    background-size: cover; 
+}
+.image-cont__star-m5{
+    background-image: url("../images/reagan_foxx.jpg");
+    /* background-position: top 15% right 45%; */
+    /* background-size: contain;  */
+}
+.image-cont__star-m6{
+    background-image: url("../images/corychase.jpg");
+    /* background-position: top 50% left 50%; */
+    /* background-size: contain;  */
+}
+@media(max-width:28rem){
+    .flex-wrapper__head-data,
+    .flx-wrpr__data-star,
+    .flx-wrpr__data-vlog,
+    .flx-wrpr__data-channel,
+    .flx-wrpr__star-t
+    .flx-wrpr__star-m{
+        height: auto;
+        width: 100vw;
+        margin:1.5rem auto;
+    }
+    #head-data,
+    #data-star,
+    #data-vlog,
+    #data-channel{
+        width: 95%;
+    }
+    #star-t,
+    #star-m{
+        grid-auto-flow: row;
+        height: auto;
+        grid-template-columns: 1fr;
+        grid-gap: 1rem 0;
+        grid-template-rows: repeat(2,523px);
+        grid-template-columns: repeat(1, minmax(17rem,1fr)) ;
+    }
+
+}
