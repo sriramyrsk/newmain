@@ -1,0 +1,103 @@
+
+#Login-section{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.accounts-login__container{
+    height: 15rem;
+    display: flex;
+    justify-content: center;
+    background: #15cdee;
+    width: 40%;
+}
+.intro-acc{
+    color: white;
+}
+#accounts-login{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.accounts-login__container-prompt{
+    background: rgb(247, 247, 247);
+    padding: 1rem;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.accounts-login__prompt{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.accounts-login__button{
+    padding: 0.5rem;
+}
+.accounts-login__button:focus{
+    outline: none;
+}
+.accounts-login__a{
+    text-decoration: none;
+    color: black;
+}
+.accounts-login__button:hover,
+.accounts-login__button:active{
+    background: #15cdee;
+    color: white;
+}
+#acc-info{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+}
+.acc-info_cont{
+    background-color: rgb(255, 0, 0);
+    width: 50%;
+}
+.us-1,.us-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-gap: 0.5rem 1rem;
+}
+.pass-1,.pass-2{
+    display: grid;
+    grid-gap: 0.5rem 1rem;
+    grid-template-columns: 1fr 1fr ;
+}
+.acc-1 p,.acc-2 p{
+    padding: 0.7rem;
+    background-color: white;
+    border: solid 2px rgb(255, 0, 0);
+}
+@media(max-width:28rem){
+    p{
+        margin: 0;
+    }
+
+    .accounts-login__container{
+        width: 90%;
+    }
+    .acc-info_cont{
+        width: 96%;
+    }
+    .us-1,.us-2{
+        margin:1rem 0;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-row-gap: 0.5rem;
+    }
+    .pass-1,.pass-2{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-row-gap: 0.5rem;
+        
+    }
+    .acc-1 p,.acc-2 p{
+        padding: 0.7rem;
+        background-color: white;
+        border: solid 2px rgb(255, 0, 0);
+    }
+}

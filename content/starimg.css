@@ -1,0 +1,55 @@
+#star-t{
+    margin-top: 2rem;
+}
+#ali-img{
+    background-color: black;
+}
+.grid-container{
+    display: grid;
+    grid-template-rows: repeat(4,540px);
+    grid-template-columns: repeat(auto-fit,300px);
+    grid-gap: 0.5rem;
+}
+.grid_E{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+   
+}
+.ali-1{
+    background-image: url("../images/aliimg1.jpg");
+}
+.ali-2{
+    background-image: url("../images/alistimg2.jpg"); 
+}
+.ali-3{
+    background-image: url("../images/alistimg3.jpg");  
+}
+.ali-4{
+    background-image: url("../images/alistimg4.jpg");  
+}
+.ali-5{
+    background-image: url("../images/alistimg5.jpg");  
+}
+.ali-6{
+    background-image: url("../images/alistimg6.jpg");  
+}
+.ali-7{
+    background-image: url("../images/alistimg7.jpg");  
+}
+.ali-8{
+    background-image: url("../images/alistimg8.jpg");  
+}
+.ali-9{
+    background-image: url("../images/alistimg9.jpg");  
+}
+.ali-10{
+    background-image: url("../images/alistimg10.jpg");  
+}
+.ali-11{
+    background-image: url("../images/alistimg11.jpg");  
+}
+.ali-12{
+    background-image: url("../images/alistimg12.jpg");  
+}

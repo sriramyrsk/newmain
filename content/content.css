@@ -1,0 +1,40 @@
+.content_type{
+    display: flex;
+    justify-content: center;
+}
+.cont-type__prom{
+    text-align: center;
+    width: 100%;
+}
+.content_type--cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 0.5rem;
+    background-color: rgb(255, 0, 0);
+    width: 50%;
+    justify-self: center;
+}
+a{
+    text-decoration: none;
+}
+.content_type--cont p{
+    font-weight: bold;
+    color: black;
+}
+
+.content_type--cont p:hover,
+.content_type--cont p:active{
+    color: white;
+}
+
+
+@media(max-width:28rem)
+{
+    
+    .field-1{
+        width: 100%;
+    }
+
+}

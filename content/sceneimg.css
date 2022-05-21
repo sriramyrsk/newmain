@@ -1,0 +1,139 @@
+#star-t{
+    margin-top: 2rem;
+}
+#blackedraw-img{
+    background-color: black;
+}
+.grid-container{
+    display: grid;
+    grid-template-rows: repeat(5,540px);
+    grid-template-columns: repeat(auto-fit,300px) ;
+    grid-gap: 0.5rem;
+}
+.grid_E{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+}
+.br-1{
+    background-image: url("../images/brstimg1.jpg");
+}
+.br-2{
+    background-image: url("../images/brstimg2.jpg"); 
+}
+.br-3{
+    background-image: url("../images/brstimg3.jpg");  
+}
+.br-4{
+    background-image: url("../images/brstimg4.jpg");  
+}
+.br-5{
+    background-image: url("../images/brstimg5.jpg");  
+}
+.br-6{
+    background-image: url("../images/brstimg6.jpg");  
+}
+.br-7{
+    background-image: url("../images/brstimg7.jpg");  
+}
+.br-8{
+    background-image: url("../images/brstimg8.jpg");  
+}
+.br-9{
+    background-image: url("../images/brstimg9.jpg");  
+}
+.br-10{
+    background-image: url("../images/brstimg10.jpg");  
+}
+.br-11{
+    background-image: url("../images/brstimg11.jpg");  
+}
+.br-12{
+    background-image: url("../images/brstimg12.jpg");  
+}
+
+.br-13{
+    background-image: url("../images/brstimg13.jpg");  
+}
+.br-14{
+    background-image: url("../images/brstimg14.jpg");  
+}
+.br-15{
+    background-image: url("../images/brstimg15.jpg");  
+}
+.br-16{
+    background-image: url("../images/brstimg16.jpg");  
+}
+.br-17{
+    background-image: url("../images/brstimg17.jpg");  
+}
+.br-18{
+    background-image: url("../images/brstimg18.jpg");  
+}
+.br-19{
+    background-image: url("../images/brstimg19.jpg");  
+}
+.br-20{
+    background-image: url("../images/brstimg20.jpg");  
+}
+.br-21{
+    background-image: url("../images/brstimg21.jpg");
+}
+.br-22{
+    background-image: url("../images/brstimg22.jpg"); 
+}
+.br-23{
+    background-image: url("../images/brstimg23.jpg");  
+}
+.br-24{
+    background-image: url("../images/brstimg24.jpg");  
+}
+.br-25{
+    background-image: url("../images/brstimg25.jpg");  
+}
+.br-26{
+    background-image: url("../images/brstimg26.jpg");  
+}
+.br-27{
+    background-image: url("../images/brstimg27.jpg");  
+}
+.br-28{
+    background-image: url("../images/brstimg28.jpg");  
+}
+.br-29{
+    background-image: url("../images/brstimg29.jpg");  
+}
+.br-30{
+    background-image: url("../images/brstimg20.jpg");  
+}
+.br-31{
+    background-image: url("../images/brstimg1.jpg");
+}
+.br-32{
+    background-image: url("../images/brstimg2.jpg"); 
+}
+.br-33{
+    background-image: url("../images/brstimg3.jpg");  
+}
+.br-34{
+    background-image: url("../images/brstimg4.jpg");  
+}
+.br-35{
+    background-image: url("../images/brstimg5.jpg");  
+}
+.br-36{
+    background-image: url("../images/brstimg6.jpg");  
+}
+.br-37{
+    background-image: url("../images/brstimg7.jpg");  
+}
+.br-38{
+    background-image: url("../images/brstimg8.jpg");  
+}
+.br-39{
+    background-image: url("../images/brstimg9.jpg");  
+}
+.br-40{
+    background-image: url("../images/brstimg10.jpg");  
+}
